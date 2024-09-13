@@ -7,4 +7,4 @@ COPY . /course
 EXPOSE 3000
 
 # Command to start the server
-CMD ["npm", "start"]
+CMD ["/bin/sh" "-c" "/PrairieLearn/docker/init.sh"]
